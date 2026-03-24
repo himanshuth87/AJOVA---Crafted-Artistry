@@ -6,9 +6,12 @@ export default function Footer() {
     <footer className="bg-black border-t border-white/10 py-16 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="space-y-6">
-          <div className="space-y-1">
-            <h3 className="text-2xl font-serif tracking-widest font-bold">AJOVA</h3>
-            <p className="text-[9px] uppercase tracking-[0.35em] text-gold/80 font-medium">Crafted Artistry</p>
+          <div className="flex items-center gap-3">
+            <img src="/logo.png" alt="AJOVA Logo" className="w-12 h-12 rounded-full object-cover" />
+            <div className="space-y-1">
+              <h3 className="text-2xl font-serif tracking-widest font-bold">AJOVA</h3>
+              <p className="text-[9px] uppercase tracking-[0.35em] text-gold/80 font-medium">Crafted Artistry</p>
+            </div>
           </div>
           <p className="text-white/50 text-sm leading-relaxed max-w-xs">
             Premium dark luxury streetwear. Wear your identity with confidence.

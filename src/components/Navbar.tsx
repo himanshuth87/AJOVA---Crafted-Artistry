@@ -41,9 +41,16 @@ export default function Navbar() {
         </button>
 
         {/* Logo */}
-        <Link to="/" className="flex flex-col items-center leading-tight">
-          <span className="text-2xl font-serif tracking-widest font-bold text-white">AJOVA</span>
-          <span className="text-[9px] uppercase tracking-[0.35em] text-gold/80 font-medium">Crafted Artistry</span>
+        <Link to="/" className="flex items-center gap-3">
+          <img
+            src="/logo.png"
+            alt="AJOVA Logo"
+            className="w-10 h-10 rounded-full object-cover"
+          />
+          <div className="flex flex-col leading-tight">
+            <span className="text-xl font-serif tracking-widest font-bold text-white">AJOVA</span>
+            <span className="text-[9px] uppercase tracking-[0.35em] text-gold/80 font-medium">Crafted Artistry</span>
+          </div>
         </Link>
 
         {/* Desktop Links */}
